@@ -1,3 +1,3 @@
-<h1>
-  {{title}}
-</h1>
+<button id="increment" (click)="increment()">+</button>
+<button id="decrement" (click)="decrement()">-</button>
+<output>Total: {{ count | async }}</output>
